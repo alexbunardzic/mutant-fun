@@ -1,0 +1,8 @@
+integration: rspec
+includes:
+- lib
+requires:
+- tennis_score
+matcher:
+  subjects:
+  - 'TennisScore*'
